@@ -1,5 +1,9 @@
 # Online-Library
-The library management system allows users to register, log in separately from librarians, and  browse all available eBooks and sections. 
+The library management system allows users to register, log in separately from librarians, and  browse all available eBooks and sections.
+Users can request to access eBooks, search by title or section, and edit their profiles. They can also view detailed eBook information. 
+Librarians can approve or revoke access requests, and manage eBooks and sections by adding, updating, or deleting them. 
+The app includes a dashboard for librarians to view statistics, track active users, and see various 
+graphs
 # Technologies used 
 1. Flask: Handles routing and request management. 
 2. Vue.js: Frontend development with CLI. 
@@ -23,9 +27,10 @@ Requests: Logs user requests for eBook access, tracking approval status.
 Ratings: Captures user ratings and reviews for eBooks. 
 UsersTime: Tracks user login/logout times and session status. 
 
-#read Readme file to run the application.
+# Read Readme.txt file to run the application.
 
-#Video Link:
+
+# Video Link:
 https://www.youtube.com/watch?v=gwYh8WPvE8s
 ![Desktop - 3](https://github.com/user-attachments/assets/65526652-8bb5-410e-ba09-21cd24824783)
 
