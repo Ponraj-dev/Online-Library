@@ -23,5 +23,11 @@ Requests: Logs user requests for eBook access, tracking approval status.
 Ratings: Captures user ratings and reviews for eBooks. 
 UsersTime: Tracks user login/logout times and session status. 
 
+#read Readme file to run the application.
+
 #Video Link:
 https://www.youtube.com/watch?v=gwYh8WPvE8s
+![Desktop - 3](https://github.com/user-attachments/assets/65526652-8bb5-410e-ba09-21cd24824783)
+
+
+
