@@ -17,16 +17,18 @@ wsl
 
 
 terminal 3
-cd / backend
-wsl
+      cd / backend
+      wsl
       celery -A website.celery_worker.celery beat --max-interval 1 -l info
+
 terminal 4
     cd / backend
     celery -A website.celery_worker:celery worker --loglevel=info
 
-frontend :
- cd / frontend
-    npm run serve
+terminal 5
+    frontend :
+        cd / frontend
+        npm run serve
 
 error:
 none Node module = npm audit
